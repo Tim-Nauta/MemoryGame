@@ -244,7 +244,7 @@ function startGameSequence() {
                     playerTurn = true;
 
                     /* message the player it's their turn */
-                    messageBox.innerHTML = 'Repeat the sequence';
+                    messageBox.innerHTML = `Repeat the sequence (${generatedNumbersSequence.length - playerNumbersSequence.length} remaining)`;
 
                     console.log(`i is ${i}`);
                     console.log(`player's turn is ${playerTurn}`);
@@ -270,13 +270,20 @@ function createPlayerInputArray() {
             if (playerTurn === true) {
                 playerNumbersSequence.push(t);
                 console.log(` player input is ${playerNumbersSequence} `);
+
+                /* show the remaining amount of buttons that player has yet to press to complete the sequence*/
+                messageBox.innerHTML = `Repeat the sequence (${generatedNumbersSequence.length - playerNumbersSequence.length} remaining)`;
+
                 winCheck();
 
                 /* Highlights the memorytile after the player has pressed it*/
                 toggleMemoryTile(t)
+
+
                 memoryTileBeep.play();
                 setTimeout(function () {
                     toggleMemoryTile(t)
+
                 }, 300);
             }
         })
