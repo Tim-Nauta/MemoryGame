@@ -295,17 +295,6 @@ function createPlayerInputArray() {
 /* function to check if the player has succesfully input the correct sequence*/
 function winCheck() {
 
-
-    for (let i = 0; i < playerNumbersSequence.length; i++) {
-
-        if (generatedNumbersSequence[i] !== playerNumbersSequence[i]) {
-            lostTheGame();
-        }
-
-    }
-
-
-
     /* check if enough buttons have been pressed by the player to match the amount the computer has input */
     if (playerNumbersSequence.length === generatedNumbersSequence.length) {
 
@@ -343,6 +332,18 @@ function winCheck() {
 
         }
     }
+
+
+    if (playerNumbersSequence.length !== generatedNumbersSequence.length) {
+        for (let i = 0; i < playerNumbersSequence.length; i++) {
+
+            if (generatedNumbersSequence[i] !== playerNumbersSequence[i]) {
+                lostTheGame();
+            }
+
+        }
+    }
+
 };
 
 /* losing the game function*/
@@ -360,7 +361,6 @@ function lostTheGame() {
         highScoreNumberModal.innerHTML = highScore;
 
         /* select random gif*/
-
         const randomGif = Math.floor(Math.random() * 4) + 1;
         console.log(randomGif);
 
@@ -384,6 +384,10 @@ function lostTheGame() {
     /* update score */
     currentScore = 0;
     updateCurrentScore();
+
+    /* prepare for next round */
+    playerTurn = false;
+    computerTurn = true;
 
 
     /* reset game*/
