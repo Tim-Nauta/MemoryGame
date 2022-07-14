@@ -295,6 +295,17 @@ function createPlayerInputArray() {
 /* function to check if the player has succesfully input the correct sequence*/
 function winCheck() {
 
+
+    for (let i = 0; i < playerNumbersSequence.length; i++) {
+
+        if (generatedNumbersSequence[i] !== playerNumbersSequence[i]) {
+            lostTheGame();
+        }
+
+    }
+
+
+
     /* check if enough buttons have been pressed by the player to match the amount the computer has input */
     if (playerNumbersSequence.length === generatedNumbersSequence.length) {
 
@@ -328,52 +339,57 @@ function winCheck() {
 
         } else {
 
-            /* message player they are incorrect */
-            messageBox.innerHTML = 'You are incorrect... try again';
-
-            /* reset high score text */
-            highScoreMessage.innerHTML = '';
-
-            if (newHighScore === true && 1 < highScore) {
-                /* show high score popup modal */
-                ShowHideHighScoreModal();
-                highScoreNumberModal.innerHTML = highScore;
-
-                /* select random gif*/
-
-                const randomGif = Math.floor(Math.random() * 4) + 1;
-                console.log(randomGif);
-
-
-                for (let gif = 1; gif <= 4; gif++) {
-
-                    if (randomGif === gif) {
-                        highScoreModalGif.src = `gifs/applause-${gif}.gif`
-                    }
-
-
-                };
-
-                /* play applause sound effect */
-                applauseSound.play();
-                applauseSound.loop = true;
-
-                newHighScore = false;
-            }
-
-            /* update score */
-            currentScore = 0;
-            updateCurrentScore();
-
-
-            /* reset game*/
-            playerNumbersSequence = [];
-            generatedNumbersSequence = [];
+            lostTheGame();
 
         }
     }
 };
 
+/* losing the game function*/
+
+function lostTheGame() {
+    /* message player they are incorrect */
+    messageBox.innerHTML = 'You are incorrect... try again';
+
+    /* reset high score text */
+    highScoreMessage.innerHTML = '';
+
+    if (newHighScore === true && 1 < highScore) {
+        /* show high score popup modal */
+        ShowHideHighScoreModal();
+        highScoreNumberModal.innerHTML = highScore;
+
+        /* select random gif*/
+
+        const randomGif = Math.floor(Math.random() * 4) + 1;
+        console.log(randomGif);
+
+
+        for (let gif = 1; gif <= 4; gif++) {
+
+            if (randomGif === gif) {
+                highScoreModalGif.src = `gifs/applause-${gif}.gif`
+            }
+
+
+        };
+
+        /* play applause sound effect */
+        applauseSound.play();
+        applauseSound.loop = true;
+
+        newHighScore = false;
+    }
+
+    /* update score */
+    currentScore = 0;
+    updateCurrentScore();
+
+
+    /* reset game*/
+    playerNumbersSequence = [];
+    generatedNumbersSequence = [];
+};
 
 /* functions that updates the scores in the html document*/
 /*  update the current score  */
