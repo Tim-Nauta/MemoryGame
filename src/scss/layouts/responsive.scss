@@ -43,6 +43,13 @@
         margin: 0rem 5%;
     }
 
+    /* 1.4 highscore modal */
+
+    .high-score-modal-box {
+        height: 70%;
+        width: 70%;
+    }
+
 }
 
 
@@ -84,6 +91,7 @@
         margin: 0rem 5%;
     }
 
+
     /* 2.4. Difficulty select menu */
 
     .difficulty-select {
@@ -92,8 +100,6 @@
         gap: 4rem;
 
     }
-
-
 
 }
 
@@ -126,11 +132,11 @@
 
     /* 3.3.1 memory blocks styling */
     .memory-block-and-start .margin--30 {
-        margin: 0rem 20%;
+        margin: 0rem 10%;
     }
 
     .memory-block-and-start .margin--20 {
-        margin: 0rem 10%;
+        margin: 0rem 7.5%;
     }
 
     .memory-block-and-start .margin--15 {
@@ -159,7 +165,16 @@
         order: 2;
     }
 
-    /* 3.4 Difficulty select menu */
+    /* 3.4 highscore modal */
+
+    .high-score-modal-box {
+        height: 60%;
+        width: 90%;
+
+    }
+
+
+    /* 3.5 Difficulty select menu */
     .difficulty-select {
 
         flex-basis: 50%;

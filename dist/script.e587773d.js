@@ -117,13 +117,42 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"javascript/script.js":[function(require,module,exports) {
+})({"sound-effects/memorytile-beep.mp3":[function(require,module,exports) {
+module.exports = "/memorytile-beep.560f390e.mp3";
+},{}],"sound-effects/applause-sound.mp3":[function(require,module,exports) {
+module.exports = "/applause-sound.54aa1351.mp3";
+},{}],"gifs/applause-1.gif":[function(require,module,exports) {
+module.exports = "/applause-1.9a9da4e1.gif";
+},{}],"gifs/applause-2.gif":[function(require,module,exports) {
+module.exports = "/applause-2.58e193f4.gif";
+},{}],"gifs/applause-3.gif":[function(require,module,exports) {
+module.exports = "/applause-3.caccfc48.gif";
+},{}],"gifs/applause-4.gif":[function(require,module,exports) {
+module.exports = "/applause-4.69d73ba9.gif";
+},{}],"javascript/script.js":[function(require,module,exports) {
 "use strict";
-/* sound effects */
+/* imports sounds*/
 
-var memoryTileBeep = new Audio('sound-effects/memorytile-beep.mp3');
+var _memorytileBeep = _interopRequireDefault(require("../sound-effects/memorytile-beep.mp3"));
+
+var _applauseSound = _interopRequireDefault(require("../sound-effects/applause-sound.mp3"));
+
+var _applause = _interopRequireDefault(require("../gifs/applause-1.gif"));
+
+var _applause2 = _interopRequireDefault(require("../gifs/applause-2.gif"));
+
+var _applause3 = _interopRequireDefault(require("../gifs/applause-3.gif"));
+
+var _applause4 = _interopRequireDefault(require("../gifs/applause-4.gif"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* imports gifs*/
+
+/* sound effects */
+var memoryTileBeep = new Audio(_memorytileBeep.default);
 memoryTileBeep.volume = 0.2;
-var applauseSound = new Audio('sound-effects/applause-sound.mp3');
+var applauseSound = new Audio(_applauseSound.default);
 applauseSound.volume = 0.5;
 /* DOM variables */
 
@@ -448,19 +477,29 @@ function lostTheGame() {
     /* show high score popup modal */
     ShowHideHighScoreModal();
     highScoreNumberModal.innerHTML = highScore;
-    /* select random gif*/
+    /* select random gif via a number of 1 to 4*/
 
     var randomGif = Math.floor(Math.random() * 4) + 1;
     console.log(randomGif);
+    /* select the correct gif based on the randomly selected number*/
 
-    for (var gif = 1; gif <= 4; gif++) {
-      if (randomGif === gif) {
-        highScoreModalGif.src = "gifs/applause-".concat(gif, ".gif");
-      }
+    if (randomGif === 1) {
+      highScoreModalGif.src = _applause.default;
     }
 
-    ;
+    if (randomGif === 2) {
+      highScoreModalGif.src = _applause2.default;
+    }
+
+    if (randomGif === 3) {
+      highScoreModalGif.src = _applause3.default;
+    }
+
+    if (randomGif === 4) {
+      highScoreModalGif.src = _applause4.default;
+    }
     /* play applause sound effect */
+
 
     applauseSound.play();
     applauseSound.loop = true;
@@ -602,7 +641,7 @@ function removeMemoryTilesHtml() {
     memoryBlockArea.removeChild(memoryBlockArea.lastElementChild);
   }
 }
-},{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../sound-effects/memorytile-beep.mp3":"sound-effects/memorytile-beep.mp3","../sound-effects/applause-sound.mp3":"sound-effects/applause-sound.mp3","../gifs/applause-1.gif":"gifs/applause-1.gif","../gifs/applause-2.gif":"gifs/applause-2.gif","../gifs/applause-3.gif":"gifs/applause-3.gif","../gifs/applause-4.gif":"gifs/applause-4.gif"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -630,7 +669,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60039" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57196" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

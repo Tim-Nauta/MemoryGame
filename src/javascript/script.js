@@ -1,10 +1,21 @@
 "use strict"
 
+/* imports sounds*/
+import tileBeep from "../sound-effects/memorytile-beep.mp3";
+import applause from "../sound-effects/applause-sound.mp3"
+
+/* imports gifs*/
+import gifs1 from "../gifs/applause-1.gif"
+import gifs2 from "../gifs/applause-2.gif"
+import gifs3 from "../gifs/applause-3.gif"
+import gifs4 from "../gifs/applause-4.gif"
+
 /* sound effects */
-const memoryTileBeep = new Audio('sound-effects/memorytile-beep.mp3');
+const memoryTileBeep = new Audio(tileBeep);
 memoryTileBeep.volume = 0.2;
-const applauseSound = new Audio('sound-effects/applause-sound.mp3');
+const applauseSound = new Audio(applause);
 applauseSound.volume = 0.5;
+
 
 /* DOM variables */
 /* ------------------------------------------------- */
@@ -360,19 +371,21 @@ function lostTheGame() {
         ShowHideHighScoreModal();
         highScoreNumberModal.innerHTML = highScore;
 
-        /* select random gif*/
+        /* select random gif via a number of 1 to 4*/
         const randomGif = Math.floor(Math.random() * 4) + 1;
         console.log(randomGif);
 
+        /* select the correct gif based on the randomly selected number*/
+        if (randomGif === 1) {
+            highScoreModalGif.src = gifs1;
+        } if (randomGif === 2) {
+            highScoreModalGif.src = gifs2;
+        } if (randomGif === 3) {
+            highScoreModalGif.src = gifs3;
+        } if (randomGif === 4) {
+            highScoreModalGif.src = gifs4;
+        }
 
-        for (let gif = 1; gif <= 4; gif++) {
-
-            if (randomGif === gif) {
-                highScoreModalGif.src = `gifs/applause-${gif}.gif`
-            }
-
-
-        };
 
         /* play applause sound effect */
         applauseSound.play();

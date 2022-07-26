@@ -157,6 +157,7 @@ button {
 .btn-secondary {
     border: 0.2rem solid $color-primary;
     color: $color-primary;
+    background-color: $color-secondary;
     box-shadow: $box-shadow-generic;
 }
 
@@ -392,7 +393,7 @@ $corner-margins: 0rem 5rem 5rem 5rem;
 
 .high-score-modal-box p {
     font-size: 2.5rem;
-    margin: 2rem 0rem;
+    margin: 2rem 1rem;
 
 }
 
