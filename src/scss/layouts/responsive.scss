@@ -5,20 +5,17 @@
 2. Responsiveness mobile
 
 1 Responsiveness Tablet 1281px 
-1.1 Game area 
- 
- */
 
-
-/* 1.1  Game area */
+*/
 
 @media (max-width:1281px) {
 
+    /* 1.1 general resize by changing the font size in html*/
     html {
         font-size: 60%;
     }
 
-    /* 1.1.1 Default box resizing  */
+    /* 1.2 Default box resizing  */
     .default-box {
 
         width: 90vw;
@@ -26,20 +23,41 @@
 
         margin: 0rem 10rem;
     }
+
+    /* 1.3 game area */
+    /* 1.3.1. memory blocks styling */
+
+    .memory-block-and-start .margin--30 {
+        margin: 0rem 25%;
+    }
+
+    .memory-block-and-start .margin--20 {
+        margin: 0rem 15%;
+    }
+
+    .memory-block-and-start .margin--15 {
+        margin: 0rem 10%;
+    }
+
+    .memory-block-and-start .margin--10 {
+        margin: 0rem 5%;
+    }
+
 }
 
 
 /*
-2 Responsiveness Tablet 801px 
+2. Responsiveness Tablet 801px 
 */
 
 @media (max-width:801px) {
 
+    /* 2.1 general resize by changing the font size in html*/
     html {
         font-size: 55%;
     }
 
-    /* 1.1.1 Default box resizing  */
+    /* 2.2 Default box resizing  */
     .default-box {
 
         width: 92.5vw;
@@ -47,7 +65,27 @@
 
     }
 
-    /* 2.1.1 Difficulty select  menu */
+    /* 2.3. game area */
+    /* 2.3.1 memory blocks styling */
+
+    .memory-block-and-start .margin--30 {
+        margin: 0rem 15%;
+    }
+
+    .memory-block-and-start .margin--20 {
+        margin: 0rem 10%;
+    }
+
+    .memory-block-and-start .margin--15 {
+        margin: 0rem 10%;
+    }
+
+    .memory-block-and-start .margin--10 {
+        margin: 0rem 5%;
+    }
+
+    /* 2.4. Difficulty select menu */
+
     .difficulty-select {
 
         flex-basis: 60%;
@@ -55,20 +93,23 @@
 
     }
 
+
+
 }
 
 
 /*
-2 Responsiveness Mobile 641px 
+3. Responsiveness Mobile 641px 
 */
 
-@media (max-width:641px) {
+@media (max-width:585px) {
 
+    /* 3.1 general resize by changing the font size in html*/
     html {
         font-size: 50%;
     }
 
-    /* 1.1.1 Default box resizing  */
+    /* 3.2 Default box resizing  */
     .default-box {
 
         width: 95vw;
@@ -76,7 +117,49 @@
 
     }
 
-    /* 3.1.1 Difficulty select menu */
+    /* 3.3. game area */
+
+    /*message text */
+    .text-box {
+        margin: 0rem 2rem;
+    }
+
+    /* 3.3.1 memory blocks styling */
+    .memory-block-and-start .margin--30 {
+        margin: 0rem 20%;
+    }
+
+    .memory-block-and-start .margin--20 {
+        margin: 0rem 10%;
+    }
+
+    .memory-block-and-start .margin--15 {
+        margin: 0rem 7.5%;
+    }
+
+    .memory-block-and-start .margin--10 {
+        margin: 0rem 5%;
+    }
+
+    /* 3.3.2 bottom area */
+
+    /* center elements */
+    .bottom-area {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .support-quit-button {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    /* switch position scorebox and quit button */
+    .support-quit-button {
+        order: 2;
+    }
+
+    /* 3.4 Difficulty select menu */
     .difficulty-select {
 
         flex-basis: 50%;
