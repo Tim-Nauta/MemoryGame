@@ -330,7 +330,7 @@ function winCheck() {
                 newHighScore = true;
 
                 /* message the player they got a new high score */
-                highScoreMessage.innerHTML = 'New highscore!';
+                highScoreMessage.innerHTML = 'New high score!';
             }
 
             /* reset playerInput */

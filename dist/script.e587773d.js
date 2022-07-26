@@ -443,7 +443,7 @@ function winCheck() {
         newHighScore = true;
         /* message the player they got a new high score */
 
-        highScoreMessage.innerHTML = 'New highscore!';
+        highScoreMessage.innerHTML = 'New high score!';
       }
       /* reset playerInput */
 
@@ -669,7 +669,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57196" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61982" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
