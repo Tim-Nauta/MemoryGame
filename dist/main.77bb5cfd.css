@@ -10,18 +10,34 @@
 ---------------------------------------
 1.1 colors
 1.2 font
+1.3 focus
 
 2. css styling support classes
 ---------------------------------------
 2.1 grid
 2.2 flex-box
+2.3 buttons
+2.4 padding, margins, gaps & align
+2.4.1 margins
+2.4.2 gaps
+2.5 hide display
 
-3. css styling individual components
+3. css styling individual components of the game area
 ---------------------------------------
 3.1 memory block styling
-3.2 button styling
-3.3 score styling
-3.4 text box styling
+3.1.1 active memory block styling
+3.2 game area styling
+3.3 text box styling
+3.4 styling of the bottom section of the game area
+3.4.1 score styling
+3.4.2 highscore modal styling
+3.4.3 quit button
+
+4 styling body background 
+
+5. styling difficulty select menu
+5.1 styling custom difficulty menu 
+
 */
 /* 0 default settings */
 /* 0.1 full reset */
@@ -52,7 +68,7 @@ h2 {
 button {
   font-family: "Poppins", sans-serif; }
 
-/* 1.4 focus */
+/* 1.3 focus */
 *:focus {
   outline: 0.2rem solid #08223a; }
 
@@ -341,11 +357,52 @@ button {
 /* table of contents 
 ---------------------------------------
 
-0. Responsiveness tablet
-1. Responsiveness mobile
+1. Responsiveness tablet
+2. Responsiveness mobile
 
-/* 0 Responsiveness Tablet */
-/* 0.1 Game area */
+1 Responsiveness Tablet 1281px 
+1.1 Game area 
+ 
+ */
+/* 1.1  Game area */
+@media (max-width: 1281px) {
+  html {
+    font-size: 60%; }
+  /* 1.1.1 Default box resizing  */
+  .default-box {
+    width: 90vw;
+    height: 90vh;
+    margin: 0rem 10rem; } }
+
+/*
+2 Responsiveness Tablet 801px 
+*/
+@media (max-width: 801px) {
+  html {
+    font-size: 55%; }
+  /* 1.1.1 Default box resizing  */
+  .default-box {
+    width: 92.5vw;
+    height: 92.5vh; }
+  /* 2.1.1 Difficulty select  menu */
+  .difficulty-select {
+    flex-basis: 60%;
+    gap: 4rem; } }
+
+/*
+2 Responsiveness Mobile 641px 
+*/
+@media (max-width: 641px) {
+  html {
+    font-size: 50%; }
+  /* 1.1.1 Default box resizing  */
+  .default-box {
+    width: 95vw;
+    height: 95vh; }
+  /* 3.1.1 Difficulty select menu */
+  .difficulty-select {
+    flex-basis: 50%;
+    gap: 6rem; } }
 
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

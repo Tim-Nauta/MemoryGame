@@ -1,8 +1,87 @@
 /* table of contents 
 ---------------------------------------
 
-0. Responsiveness tablet
-1. Responsiveness mobile
+1. Responsiveness tablet
+2. Responsiveness mobile
 
-/* 0 Responsiveness Tablet */
-/* 0.1 Game area */
+1 Responsiveness Tablet 1281px 
+1.1 Game area 
+ 
+ */
+
+
+/* 1.1  Game area */
+
+@media (max-width:1281px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    /* 1.1.1 Default box resizing  */
+    .default-box {
+
+        width: 90vw;
+        height: 90vh;
+
+        margin: 0rem 10rem;
+    }
+}
+
+
+/*
+2 Responsiveness Tablet 801px 
+*/
+
+@media (max-width:801px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    /* 1.1.1 Default box resizing  */
+    .default-box {
+
+        width: 92.5vw;
+        height: 92.5vh;
+
+    }
+
+    /* 2.1.1 Difficulty select  menu */
+    .difficulty-select {
+
+        flex-basis: 60%;
+        gap: 4rem;
+
+    }
+
+}
+
+
+/*
+2 Responsiveness Mobile 641px 
+*/
+
+@media (max-width:641px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    /* 1.1.1 Default box resizing  */
+    .default-box {
+
+        width: 95vw;
+        height: 95vh;
+
+    }
+
+    /* 3.1.1 Difficulty select menu */
+    .difficulty-select {
+
+        flex-basis: 50%;
+        gap: 6rem;
+
+    }
+
+}

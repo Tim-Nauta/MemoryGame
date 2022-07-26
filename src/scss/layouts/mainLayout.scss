@@ -10,20 +10,35 @@
 ---------------------------------------
 1.1 colors
 1.2 font
+1.3 focus
 
 2. css styling support classes
 ---------------------------------------
 2.1 grid
 2.2 flex-box
+2.3 buttons
+2.4 padding, margins, gaps & align
+2.4.1 margins
+2.4.2 gaps
+2.5 hide display
 
-3. css styling individual components
+3. css styling individual components of the game area
 ---------------------------------------
 3.1 memory block styling
-3.2 button styling
-3.3 score styling
-3.4 text box styling
-*/
+3.1.1 active memory block styling
+3.2 game area styling
+3.3 text box styling
+3.4 styling of the bottom section of the game area
+3.4.1 score styling
+3.4.2 highscore modal styling
+3.4.3 quit button
 
+4 styling body background 
+
+5. styling difficulty select menu
+5.1 styling custom difficulty menu 
+
+*/
 
 /* 0 default settings */
 /* 0.1 full reset */
@@ -74,7 +89,7 @@ button {
     font-family: $font-family;
 }
 
-/* 1.4 focus */
+/* 1.3 focus */
 
 *:focus {
     outline: 0.2rem solid $color-quinary;
@@ -130,6 +145,7 @@ button {
     transition: 0.3s;
     cursor: pointer;
 }
+
 
 
 .btn-secondary {
