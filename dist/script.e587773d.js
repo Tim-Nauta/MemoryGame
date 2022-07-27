@@ -548,7 +548,7 @@ function ShowHideHighScoreModal() {
   applauseSound.pause();
   applauseSound.currentTime = 0;
 }
-/* style the columns so that all the memory tiles fit on the screen */
+/* style the columns so all the memory tiles fit on the screen */
 
 
 function styleColumnsGameArea() {

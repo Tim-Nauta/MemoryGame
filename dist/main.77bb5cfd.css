@@ -438,6 +438,7 @@ button {
   .text-box {
     margin: 0rem 2rem; }
   /* 3.3.1 memory blocks styling */
+  /* 3.3.1.1 memory blocks styling wdith*/
   .memory-block-and-start .margin--30 {
     margin: 0rem 10%; }
   .memory-block-and-start .margin--20 {
@@ -448,6 +449,13 @@ button {
     margin: 0rem 5%; }
   .memory-block-area {
     padding: 0rem 0rem 3rem 0rem; }
+  /* 3.3.1.2 memory blocks styling wdith*/
+  .memory-block-height--10 {
+    height: 5rem; }
+  .memory-block-height--5 {
+    height: 2.5rem; }
+  .memory-block-height--3 {
+    height: 2.5rem; }
   /* 3.3.2 bottom area */
   /* center elements */
   .bottom-area {
@@ -464,6 +472,8 @@ button {
   .scores-box {
     margin: 0rem 5rem 2rem 5rem;
     padding: 1.5rem 2.5rem; }
+  .high-score-text {
+    top: -3rem; }
   /* 3.4 highscore modal */
   .high-score-modal-box {
     height: 60%;
