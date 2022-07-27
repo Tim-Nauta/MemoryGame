@@ -94,7 +94,7 @@
 
     /* 2.4. Difficulty select menu */
 
-    .difficulty-select {
+    .difficulty-buttons {
 
         flex-basis: 60%;
         gap: 4rem;
@@ -124,6 +124,11 @@
     }
 
     /* 3.3. game area */
+    /* 3.3.1 game area layout */
+
+    .game-box-grid {
+        grid-template-rows: 12rem 3fr 1fr;
+    }
 
     /*message text */
     .text-box {
@@ -147,6 +152,10 @@
         margin: 0rem 5%;
     }
 
+    .memory-block-area {
+        padding: 0rem 0rem 3rem 0rem;
+    }
+
     /* 3.3.2 bottom area */
 
     /* center elements */
@@ -166,8 +175,14 @@
     }
 
     .btn-quit {
-        margin: 0rem 5rem 5rem 5rem;
+        margin: 0rem 5rem 2rem 5rem;
     }
+
+    .scores-box {
+        margin: 0rem 5rem 2rem 5rem;
+        padding: 1.5rem 2.5rem;
+    }
+
 
     /* 3.4 highscore modal */
 
@@ -178,14 +193,20 @@
     }
 
 
-
-
     /* 3.5 Difficulty select menu */
-    .difficulty-select {
+    .difficulty-buttons {
 
         flex-basis: 50%;
         gap: 6rem;
 
+    }
+
+    /* 3.5 Custom difficulty select menu */
+
+    .btn-previous {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0rem;
     }
 
 }

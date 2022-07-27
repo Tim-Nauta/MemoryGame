@@ -309,7 +309,7 @@ button {
   height: 100vh; }
 
 /* 5. styling difficulty select menu */
-.difficulty-select {
+.difficulty-buttons {
   gap: 2rem; }
 
 .btn-difficulty {
@@ -415,7 +415,7 @@ button {
   .memory-block-and-start .margin--10 {
     margin: 0rem 5%; }
   /* 2.4. Difficulty select menu */
-  .difficulty-select {
+  .difficulty-buttons {
     flex-basis: 60%;
     gap: 4rem; } }
 
@@ -431,6 +431,9 @@ button {
     width: 95vw;
     height: 95vh; }
   /* 3.3. game area */
+  /* 3.3.1 game area layout */
+  .game-box-grid {
+    grid-template-rows: 12rem 3fr 1fr; }
   /*message text */
   .text-box {
     margin: 0rem 2rem; }
@@ -443,6 +446,8 @@ button {
     margin: 0rem 7.5%; }
   .memory-block-and-start .margin--10 {
     margin: 0rem 5%; }
+  .memory-block-area {
+    padding: 0rem 0rem 3rem 0rem; }
   /* 3.3.2 bottom area */
   /* center elements */
   .bottom-area {
@@ -455,15 +460,23 @@ button {
   .support-quit-button {
     order: 2; }
   .btn-quit {
-    margin: 0rem 5rem 5rem 5rem; }
+    margin: 0rem 5rem 2rem 5rem; }
+  .scores-box {
+    margin: 0rem 5rem 2rem 5rem;
+    padding: 1.5rem 2.5rem; }
   /* 3.4 highscore modal */
   .high-score-modal-box {
     height: 60%;
     width: 90%; }
   /* 3.5 Difficulty select menu */
-  .difficulty-select {
+  .difficulty-buttons {
     flex-basis: 50%;
-    gap: 6rem; } }
+    gap: 6rem; }
+  /* 3.5 Custom difficulty select menu */
+  .btn-previous {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0rem; } }
 
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
