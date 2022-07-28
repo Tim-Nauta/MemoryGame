@@ -46,7 +46,7 @@ const amountCustomDifficulty = document.getElementById('amount-custom-difficulty
 const nextCustomDifficulty = document.querySelector('.custom-difficulty-next');
 const messageBoxCustom = document.querySelector('.message-custom-tiles');
 
-
+let screenWidth = screen.width;
 let numberOfTiles = 6;
 let generatedNumbersSequence = [];
 let playerNumbersSequence = [];
@@ -58,7 +58,7 @@ let computerTurn = false;
 let newHighScore = false;
 let gameAreaActive = false;
 
-
+console.log(screenWidth);
 
 /* Difficulty select */
 /* ------------------------------------------------- */
@@ -133,10 +133,11 @@ function getCustomDifficultyInput() {
     if (amountCustomDifficulty.value < 2) {
         messageBoxCustom.innerHTML = 'Please select more tiles'
 
-    } if (100 < amountCustomDifficulty.value) {
+        /* allow up 100 tiles tiles for a viewport width wider than 581px */
+    } if (100 < amountCustomDifficulty.value && 581 < screenWidth) {
         messageBoxCustom.innerHTML = 'Please select less tiles'
 
-    } if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 100) {
+    } if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 100 && 581 < screenWidth) {
 
         numberOfTiles = amountCustomDifficulty.value;
         messageBoxCustom.innerHTML = '';
@@ -146,6 +147,22 @@ function getCustomDifficultyInput() {
         customDifficultyMenu.classList.toggle('active-window');
         gameArea.classList.toggle('active-window');
     }
+    /* allow up 50 tiles tiles for a viewport width less than 581px */
+    if (50 < amountCustomDifficulty.value && 581 >= screenWidth) {
+        messageBoxCustom.innerHTML = 'Please select less tiles'
+
+    } if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 50 && 581 >= screenWidth) {
+
+        numberOfTiles = amountCustomDifficulty.value;
+        messageBoxCustom.innerHTML = '';
+        prepareGame()
+
+        /* moves to the game area */
+        customDifficultyMenu.classList.toggle('active-window');
+        gameArea.classList.toggle('active-window');
+    }
+
+
 }
 
 

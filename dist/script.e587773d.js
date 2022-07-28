@@ -181,6 +181,7 @@ var gameArea = document.getElementById('game-area');
 var amountCustomDifficulty = document.getElementById('amount-custom-difficulty');
 var nextCustomDifficulty = document.querySelector('.custom-difficulty-next');
 var messageBoxCustom = document.querySelector('.message-custom-tiles');
+var screenWidth = screen.width;
 var numberOfTiles = 6;
 var generatedNumbersSequence = [];
 var playerNumbersSequence = [];
@@ -191,6 +192,7 @@ var playerTurn = false;
 var computerTurn = false;
 var newHighScore = false;
 var gameAreaActive = false;
+console.log(screenWidth);
 /* Difficulty select */
 
 /* ------------------------------------------------- */
@@ -257,13 +259,30 @@ nextCustomDifficulty.addEventListener('click', function () {
 function getCustomDifficultyInput() {
   if (amountCustomDifficulty.value < 2) {
     messageBoxCustom.innerHTML = 'Please select more tiles';
+    /* allow up 100 tiles tiles for a viewport width wider than 581px */
   }
 
-  if (100 < amountCustomDifficulty.value) {
+  if (100 < amountCustomDifficulty.value && 581 < screenWidth) {
     messageBoxCustom.innerHTML = 'Please select less tiles';
   }
 
-  if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 100) {
+  if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 100 && 581 < screenWidth) {
+    numberOfTiles = amountCustomDifficulty.value;
+    messageBoxCustom.innerHTML = '';
+    prepareGame();
+    /* moves to the game area */
+
+    customDifficultyMenu.classList.toggle('active-window');
+    gameArea.classList.toggle('active-window');
+  }
+  /* allow up 50 tiles tiles for a viewport width less than 581px */
+
+
+  if (50 < amountCustomDifficulty.value && 581 >= screenWidth) {
+    messageBoxCustom.innerHTML = 'Please select less tiles';
+  }
+
+  if (2 <= amountCustomDifficulty.value && amountCustomDifficulty.value <= 50 && 581 >= screenWidth) {
     numberOfTiles = amountCustomDifficulty.value;
     messageBoxCustom.innerHTML = '';
     prepareGame();
@@ -669,7 +688,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56127" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56190" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
