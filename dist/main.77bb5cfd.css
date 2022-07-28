@@ -441,6 +441,8 @@ button {
   /* 3.3.1.1 memory blocks styling wdith*/
   .memory-block-and-start .margin--30 {
     margin: 0rem 10%; }
+  .memory-block-and-start .margin--25 {
+    margin: 0rem 7.5%; }
   .memory-block-and-start .margin--20 {
     margin: 0rem 7.5%; }
   .memory-block-and-start .margin--15 {
