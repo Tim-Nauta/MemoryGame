@@ -1,8 +1,9 @@
 {
   "name": "simon-game",
   "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -10,7 +11,8 @@
   "author": "Tim",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
     "node-sass": "^7.0.1",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.12.0"
   }
 }
