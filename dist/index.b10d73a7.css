@@ -191,7 +191,7 @@ button {
 }
 
 .game-box-grid {
-  grid-template-rows: 20rem 3fr 1fr;
+  grid-template-rows: 12rem 3fr 1fr;
   grid-template-columns: 1fr;
   align-items: center;
   display: grid;

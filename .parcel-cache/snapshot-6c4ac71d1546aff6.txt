@@ -1,4 +1,4 @@
-10223
+10236
 179C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\mdn-data\css\selectors.schema.json133641862583135202 0
 178C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\stdout-stream\node_modules\safe-buffer\package.json133641862216497907 0
 161C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\css-tree\cjs\syntax\node\Block.cjs133641862575557911 0
@@ -17,7 +17,7 @@
 144C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\nan\nan_private.h133641862237721291 0
 164C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\posthtml\node_modules\posthtml-parser133641862569943104 1
 146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\_baseKeys.js133641862244007353 0
-126C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\package.json133641873806731863 0
+126C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\package.json133642592741642919 0
 163C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\yargs\build\lib\utils\levenshtein.js133641862236701449 0
 158C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\weak-lru-cache\rollup.config.js133641862568858207 0
 139C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\set-blocking133641862224762543 1
@@ -34,7 +34,7 @@
 154C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\string_decoder\package.json133641862220600223 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\isexe\package.json133641862216417725 0
 143C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\ary.js133641862255464992 0
-118C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist133641872746759939 1
+118C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist133642593548972122 1
 131C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\package-lock.json133641862944601547 0
 155C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\ajv\lib\dotjs\uniqueItems.js133641862244410831 0
 142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\shebang-command133641862223066989 1
@@ -116,7 +116,7 @@
 151C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@swc\helpers\esm\_set.js133641862607913327 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\minBy.js133641862275431082 0
 181C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\react-refresh\cjs\react-refresh-runtime.development.js133641862569745602 0
-138C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\src\javascript\script.js133641868984709196 0
+138C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\src\javascript\script.js133641875923714628 0
 144C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\wrap-ansi\license133641862216335448 0
 163C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\brotli.js133641862599724620 0
 143C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\redent\readme.md133641862225148528 0
@@ -187,7 +187,7 @@
 180C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\css-tree\lib\syntax\function\var.js133641862613862507 0
 152C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\semver\functions\valid.js133641862593468910 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\cjs\index.cjs133641862584023258 0
-146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\src\scss\layouts\mainLayout.scss133641837119987641 0
+146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\src\scss\layouts\mainLayout.scss133642583623012230 0
 178C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_stat.1133641862586384564 0
 146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\src\scss\layouts\responsive.scss133641837119992745 0
 159C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\cosmiconfig\dist\Explorer.js.map133641862583200389 0
@@ -1369,13 +1369,14 @@
 157C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@swc\helpers\cjs\_identity.cjs133641862592357613 0
 135C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\posthtml133641862569299638 1
 180C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\mdn-data\css\properties.schema.json133641862581637725 0
-136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.9127b19c.js133641872746149451 0
+136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.9127b19c.js133642592745248625 0
 165C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-releases\data\processed\envs.json133641862563423648 0
 160C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\sni.js133641862641151024 0
 166C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\xhtmlsmil.js133641862649293731 0
 151C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\picocolors\picocolors.js133641862564039945 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\.bin\sassgraph.ps1133641862290679272 0
 159C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\css-select\lib\esm\sort.d.ts.map133641862595219887 0
+140C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.2cbe2a05.js.map133642593548967116 0
 131C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\ssri133641862225048324 1
 155C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\entities\lib\encode.d.ts.map133641862581169037 0
 150C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\sass-graph\package.json133641862216365477 0
@@ -1946,6 +1947,7 @@
 144C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\verror\.npmignore133641862217127115 0
 165C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\globule\node_modules\minimatch\LICENSE133641862216512857 0
 155C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\css-select\lib\esm\sort.d.ts133641862598948155 0
+136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.2cbe2a05.js133642593548726422 0
 181C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer133641862605928994 1
 143C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\tslib\tslib.html133641862561812947 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\scss-tokenizer\lib133641862234341265 1
@@ -2338,6 +2340,7 @@
 148C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\tunnel-agent\index.js133641862223729993 0
 156C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-sass\src\libsass\COPYING133641851458425665 0
 149C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\tunnel-agent\README.md133641862217137126 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-4.3e0e6d2f.gif133642593547232730 0
 166C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-sass\src\libsass\src\base64vlq.cpp133641851509819892 0
 152C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\tslib\CopyrightNotice.txt133641862577995503 0
 144C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\take.js133641862284049432 0
@@ -3943,6 +3946,7 @@
 172C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-sass\test\fixtures\watcher\main\two.scss133641851542854269 0
 145C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\picocolors\LICENSE133641862561245739 0
 154C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\ordered-binary\package.json133641862576102674 0
+141C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.747263cb.css.map133642593548786707 0
 178C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\css-tree\lib\syntax\node\index.js133641862609518749 0
 143C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\pad.js133641862277146993 0
 177C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\wasm-reference-types.js133641862647255506 0
@@ -4518,6 +4522,7 @@
 158C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\regions\MC.js133641862631314213 0
 174C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\css-text-box-trim.js133641862613942354 0
 162C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-sass\src\libsass\src\units.hpp133641851530351692 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-1.6fb96cce.gif133642593547192694 0
 151C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\css-tree\dist\version.js133641862614192671 0
 177C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\caniuse-lite\data\features\css-text-orientation.js133641862614142492 0
 157C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\node-sass\src\libsass\src\utf8133641851531184439 1
@@ -6014,7 +6019,7 @@
 151C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\sortedIndex.js133641862282064907 0
 153C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\sortedIndexOf.js133641862282230254 0
 155C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\sortedLastIndex.js133641862282311150 0
-142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-2.0840c6d1.gif133641872745964053 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-2.0840c6d1.gif133642592745360526 0
 157C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\sortedLastIndexBy.js133641862282379903 0
 190C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\error.js133641862594063601 0
 147C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\lodash\fp\toArray.js133641862285080923 0
@@ -6996,6 +7001,7 @@
 189C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\l10n\css.json133641862575718398 0
 154C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\domutils\lib\stringify.d.ts133641862583979084 0
 158C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\domutils\lib\stringify.d.ts.map133641862579474033 0
+147C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\memorytile-beep.80d5ed15.mp3133642593542937664 0
 156C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\transformer-image\src133641862572072626 1
 152C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\domutils\lib\stringify.js133641862573852062 0
 139C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@swc\helpers133641862613433255 1
@@ -7297,7 +7303,7 @@
 177C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Nth.cjs133641862598210261 0
 165C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\ajv\lib\refs\json-schema-draft-04.json133641862244741429 0
 182C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Operator.cjs133641862598628998 0
-142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-1.b052839a.gif133641872746314855 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-1.b052839a.gif133642592745365530 0
 203C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\MediaFeature.js133641862600827271 0
 185C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Parentheses.cjs133641862598857840 0
 142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\.bin\mkdirp.cmd133641862290674276 0
@@ -9750,6 +9756,7 @@
 205C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\MediaQuery.js133641862600897659 0
 198C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Nth.js133641862601877680 0
 201C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Number.js133641862602177922 0
+146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-sound.db1c2c2e.mp3133642593543077957 0
 205C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Percentage.js133641862603617790 0
 216C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js133641862603947828 0
 200C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Ratio.js133641862604137512 0
@@ -9823,6 +9830,7 @@
 157C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\node-resolver-core\lib133641862569720583 1
 167C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\node-resolver-core\lib\_empty.js133641862562038532 0
 152C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\namer-default\lib133641862561763995 1
+136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b8d1e984.js133642593548721411 0
 152C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\namer-default\src133641862564486115 1
 168C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\namer-default\src\DefaultNamer.js133641862564947277 0
 168C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\namer-default\lib\DefaultNamer.js133641862562128018 0
@@ -9863,7 +9871,7 @@
 153C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\src\MemoryFS.js133641862574417632 0
 159C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\src\NodeFS.browser.js133641862575267266 0
 154C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\src\OverlayFS.js133641862576667227 0
-142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-4.82a9248d.gif133641872746359541 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-4.82a9248d.gif133642592745435730 0
 150C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\src\types.js133641862578269668 0
 156C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\lib\browser.js.map133641862579877840 0
 150C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\@parcel\fs\lib\index.js133641862570717678 0
@@ -10210,15 +10218,20 @@
 141C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\.bin\uncss.ps1133641857480047400 0
 154C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\.bin\update-browserslist-db133641862650051801 0
 136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\node_modules\.bin\uuid133641862290689299 0
-142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-3.eed959df.gif133641872746744936 0
-140C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.9127b19c.js.map133641872746349537 0
-137C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b10d73a7.css133641872745959055 0
-141C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b10d73a7.css.map133641872745999090 0
-129C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.html133641872745908577 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-2.1cb0fbb3.gif133642593547197701 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-3.4ebe40a3.gif133642593543941414 0
+142C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-3.eed959df.gif133642592745662631 0
+146C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\applause-sound.a305c9fa.mp3133642592744677572 0
+137C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.747263cb.css133642593548721411 0
+140C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.9127b19c.js.map133642592745543908 0
+137C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b10d73a7.css133642592744677572 0
+141C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b10d73a7.css.map133642592744712302 0
+140C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.b8d1e984.js.map133642593548922081 0
+129C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\index.html133642593548721411 0
 136C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\main.230a26a4.css133641837119062504 0
 140C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\main.230a26a4.css.map133641837119067520 0
 135C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\main.77bb5cfd.js133641837119087569 0
 139C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\main.77bb5cfd.js.map133641837119092716 0
-147C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\memorytile-beep.2abbe8af.mp3133641872746219630 0
+147C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\memorytile-beep.2abbe8af.mp3133642592745268635 0
 137C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\script.4556907d.js133641837119117491 0
 141C:\Users\timmn\OneDrive\Desktop\Code-Study\eigen projecten\Memory Game\uploaded to github\Fresh import\MemoryGame\dist\script.4556907d.js.map133641837119122500 0
