@@ -66,8 +66,6 @@ let computerTurn = false;
 let newHighScore = false;
 let gameAreaActive = false;
 
-console.log(screenWidth);
-
 /* Difficulty select */
 /* ------------------------------------------------- */
 
@@ -207,12 +205,6 @@ function createMemoryTilesHtml() {
         `memory-block--${i}`
       );
     }
-
-    /*
-        const createMemoryTile = document.createElement('div');
-        memoryBlockArea.appendChild(createMemoryTile);
-        createMemoryTile.classList.add('memory-block', `memory-block--${i}`);
-        */
   }
 }
 
@@ -246,8 +238,6 @@ function startGameSequence() {
     const generatedNumber = Math.floor(Math.random() * numberOfTiles) + 1;
     generatedNumbersSequence.push(generatedNumber);
 
-    console.log(`generated number is ${generatedNumber}`);
-
     /* disable the start buttons while the sequence is running*/
     computerTurn = false;
 
@@ -279,26 +269,19 @@ function startGameSequence() {
           messageBox.innerHTML = `Repeat the sequence (${
             generatedNumbersSequence.length - playerNumbersSequence.length
           } remaining)`;
-
-          console.log(`i is ${i}`);
-          console.log(`player's turn is ${playerTurn}`);
-          console.log(`computer's turn is ${computerTurn}`);
         }, 1000 * i);
       }
-
-      console.log(`generated number sequence is ${generatedNumbersSequence}`);
     }
   }
 }
 
-/* function that to creates multiple events (depending on the selected amount of tiles) for when the player clicks the memory tile buttons to repeat the asked sequence*/
+/* function that creates multiple events (depending on the selected amount of tiles) for when the player clicks the memory tile buttons to repeat the asked sequence*/
 
 function createPlayerInputArray() {
   for (let t = 1; t <= numberOfTiles; ++t) {
     memoryTiles[t].addEventListener("click", function () {
       if (playerTurn === true) {
         playerNumbersSequence.push(t);
-        console.log(` player input is ${playerNumbersSequence} `);
 
         /* show the remaining amount of buttons that player has yet to press to complete the sequence*/
         messageBox.innerHTML = `Repeat the sequence (${
@@ -381,7 +364,6 @@ function lostTheGame() {
 
     /* select random gif via a number of 1 to 4*/
     const randomGif = Math.floor(Math.random() * 4) + 1;
-    console.log(randomGif);
 
     /* select the correct gif based on the randomly selected number*/
     if (randomGif === 1) {
@@ -500,10 +482,6 @@ function styleColumnsGameArea() {
     }
   }
 }
-
-/* how to style css properties of a class
-        document.getElementsByClassName('scores-box')[0].style.height = "5rem";
-        */
 
 /* quit the game */
 /* ------------------------------------------------- */

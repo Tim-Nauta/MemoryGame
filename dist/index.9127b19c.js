@@ -634,7 +634,6 @@ let playerTurn = false;
 let computerTurn = false;
 let newHighScore = false;
 let gameAreaActive = false;
-console.log(screenWidth);
 /* Difficulty select */ /* ------------------------------------------------- */ /* link the selected difficulty with the appropriate amount of memory tiles*/ easyDifficulty.addEventListener("click", function() {
     numberOfTiles = 4;
     prepareGame();
@@ -703,11 +702,7 @@ customDifficulty.addEventListener("click", function() {
         if (numberOfTiles <= 21) createMemoryTile.classList.add("memory-block", "memory-block-height--10", `memory-block--${i}`);
         if (numberOfTiles <= 70 && 21 < numberOfTiles) createMemoryTile.classList.add("memory-block", "memory-block-height--5", `memory-block--${i}`);
         if (numberOfTiles <= 100 && 70 < numberOfTiles) createMemoryTile.classList.add("memory-block", "memory-block-height--3", `memory-block--${i}`);
-    /*
-        const createMemoryTile = document.createElement('div');
-        memoryBlockArea.appendChild(createMemoryTile);
-        createMemoryTile.classList.add('memory-block', `memory-block--${i}`);
-        */ }
+    }
 }
 /* loop that creates memory tiles based on the selected amount by the player */ function createMemoryTilesSelector() {
     for(let i = 1; i <= numberOfTiles; ++i)memoryTiles[i] = document.querySelector(`.memory-block--${i}`);
@@ -725,7 +720,6 @@ function startGameSequence() {
     if (playerTurn === false && computerTurn === true) {
         /* generate a random rumber which will be used to select a random memory tile*/ const generatedNumber = Math.floor(Math.random() * numberOfTiles) + 1;
         generatedNumbersSequence.push(generatedNumber);
-        console.log(`generated number is ${generatedNumber}`);
         /* disable the start buttons while the sequence is running*/ computerTurn = false;
         /* loop that starts the play sequence */ for(let i = 0; i <= generatedNumbersSequence.length; i++){
             /* function that starts the play sequence with a timer*/ setTimeout(function() {
@@ -741,19 +735,14 @@ function startGameSequence() {
             /* activate the buttons for the player after the computer has shown the order sequence*/ if (i === generatedNumbersSequence.length) setTimeout(function() {
                 playerTurn = true;
                 /* message the player it's their turn */ messageBox.innerHTML = `Repeat the sequence (${generatedNumbersSequence.length - playerNumbersSequence.length} remaining)`;
-                console.log(`i is ${i}`);
-                console.log(`player's turn is ${playerTurn}`);
-                console.log(`computer's turn is ${computerTurn}`);
             }, 1000 * i);
-            console.log(`generated number sequence is ${generatedNumbersSequence}`);
         }
     }
 }
-/* function that to creates multiple events (depending on the selected amount of tiles) for when the player clicks the memory tile buttons to repeat the asked sequence*/ function createPlayerInputArray() {
+/* function that creates multiple events (depending on the selected amount of tiles) for when the player clicks the memory tile buttons to repeat the asked sequence*/ function createPlayerInputArray() {
     for(let t = 1; t <= numberOfTiles; ++t)memoryTiles[t].addEventListener("click", function() {
         if (playerTurn === true) {
             playerNumbersSequence.push(t);
-            console.log(` player input is ${playerNumbersSequence} `);
             /* show the remaining amount of buttons that player has yet to press to complete the sequence*/ messageBox.innerHTML = `Repeat the sequence (${generatedNumbersSequence.length - playerNumbersSequence.length} remaining)`;
             winCheck();
             /* Highlights the memorytile after the player has pressed it*/ toggleMemoryTile(t);
@@ -792,7 +781,6 @@ function startGameSequence() {
         /* show high score popup modal */ ShowHideHighScoreModal();
         highScoreNumberModal.innerHTML = highScore;
         /* select random gif via a number of 1 to 4*/ const randomGif = Math.floor(Math.random() * 4) + 1;
-        console.log(randomGif);
         /* select the correct gif based on the randomly selected number*/ if (randomGif === 1) highScoreModalGif.src = (0, _applause1GifDefault.default);
         if (randomGif === 2) highScoreModalGif.src = (0, _applause2GifDefault.default);
         if (randomGif === 3) highScoreModalGif.src = (0, _applause3GifDefault.default);
@@ -848,9 +836,7 @@ function ShowHideHighScoreModal() {
         gridCol[0].style.gridTemplateColumns = `repeat(${5 + i * 5}, 1fr)`;
     }
 }
-/* how to style css properties of a class
-        document.getElementsByClassName('scores-box')[0].style.height = "5rem";
-        */ /* quit the game */ /* ------------------------------------------------- */ /* quit te game, reset all setting to default and return to the difficult select screen */ quitBtn.addEventListener("click", function() {
+/* quit the game */ /* ------------------------------------------------- */ /* quit te game, reset all setting to default and return to the difficult select screen */ quitBtn.addEventListener("click", function() {
     removeMemoryTilesHtml();
     currentScore = 0;
     updateCurrentScore();
@@ -867,10 +853,10 @@ function ShowHideHighScoreModal() {
     for(let i = 1; i <= numberOfTiles; ++i)memoryBlockArea.removeChild(memoryBlockArea.lastElementChild);
 }
 
-},{"../gifs/applause-1.gif":"9xLYd","../gifs/applause-2.gif":"j08xN","../gifs/applause-3.gif":"hxHJl","../gifs/applause-4.gif":"2ZECU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","bd5b4e5bdb0604da":"hPnly","8aafb251d58063f8":"14FlC"}],"9xLYd":[function(require,module,exports) {
-module.exports = require("bef6622c68d4ed81").getBundleURL("95jCs") + "applause-1.b052839a.gif" + "?" + Date.now();
+},{"bd5b4e5bdb0604da":"hPnly","8aafb251d58063f8":"14FlC","../gifs/applause-1.gif":"9xLYd","../gifs/applause-2.gif":"j08xN","../gifs/applause-3.gif":"hxHJl","../gifs/applause-4.gif":"2ZECU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hPnly":[function(require,module,exports) {
+module.exports = require("1ad59c2369e47039").getBundleURL("95jCs") + "memorytile-beep.2abbe8af.mp3" + "?" + Date.now();
 
-},{"bef6622c68d4ed81":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"1ad59c2369e47039":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -905,7 +891,13 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"j08xN":[function(require,module,exports) {
+},{}],"14FlC":[function(require,module,exports) {
+module.exports = require("1477227b577f37b7").getBundleURL("95jCs") + "applause-sound.a305c9fa.mp3" + "?" + Date.now();
+
+},{"1477227b577f37b7":"lgJ39"}],"9xLYd":[function(require,module,exports) {
+module.exports = require("bef6622c68d4ed81").getBundleURL("95jCs") + "applause-1.b052839a.gif" + "?" + Date.now();
+
+},{"bef6622c68d4ed81":"lgJ39"}],"j08xN":[function(require,module,exports) {
 module.exports = require("872608a87a7697bd").getBundleURL("95jCs") + "applause-2.0840c6d1.gif" + "?" + Date.now();
 
 },{"872608a87a7697bd":"lgJ39"}],"hxHJl":[function(require,module,exports) {
@@ -944,12 +936,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"hPnly":[function(require,module,exports) {
-module.exports = require("1ad59c2369e47039").getBundleURL("95jCs") + "memorytile-beep.2abbe8af.mp3" + "?" + Date.now();
-
-},{"1ad59c2369e47039":"lgJ39"}],"14FlC":[function(require,module,exports) {
-module.exports = require("1477227b577f37b7").getBundleURL("95jCs") + "applause-sound.a305c9fa.mp3" + "?" + Date.now();
-
-},{"1477227b577f37b7":"lgJ39"}]},["ij908","1vja3"], "1vja3", "parcelRequire2c90")
+},{}]},["ij908","1vja3"], "1vja3", "parcelRequire2c90")
 
 //# sourceMappingURL=index.9127b19c.js.map
