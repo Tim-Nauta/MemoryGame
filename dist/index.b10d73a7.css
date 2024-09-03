@@ -176,8 +176,10 @@ button {
   border-radius: 20px;
   width: 120rem;
   height: 90vh;
-  margin: 0 2%;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0 0 10px #0003;
 }
 
@@ -199,6 +201,7 @@ button {
 
 .text-box {
   place-self: center;
+  padding: 5rem;
 }
 
 .message-text {
@@ -350,8 +353,6 @@ button {
 
   .default-box {
     width: 90vw;
-    height: 90vh;
-    margin: 0 10rem;
   }
 
   .memory-block-and-start .margin--30 {
@@ -383,7 +384,6 @@ button {
 
   .default-box {
     width: 92.5vw;
-    height: 92.5vh;
   }
 
   .memory-block-and-start .margin--30 {
@@ -466,7 +466,7 @@ button {
   }
 
   .scores-box {
-    margin: 0 5rem 2rem;
+    margin: 1rem 5rem 2rem;
     padding: 1.5rem 2.5rem;
   }
 
@@ -488,6 +488,114 @@ button {
     margin: 0;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 870px) and (width >= 1200px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 610px) and (width >= 1200px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 180px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 410px) and (width >= 1200px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 280px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 820px) and (width <= 1199px) and (width >= 660px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 660px) and (width <= 1199px) and (width >= 660px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 120px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media screen and (orientation: landscape) and (height <= 475px) and (width <= 1199px) and (width >= 660px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 220px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media only screen and (height <= 820px) and (width <= 659px) and (width >= 420px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media only screen and (height <= 550px) and (width <= 659px) and (width >= 420px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 75px;
+  }
+
+  .game-box-grid {
+    display: block;
+  }
+}
+
+@media only screen and (height <= 320px) and (width <= 659px) and (width >= 420px) {
+  #game-area {
+    width: 90vw;
+    height: auto;
+    margin-top: 150px;
+  }
+
+  .game-box-grid {
+    display: block;
   }
 }
 /*# sourceMappingURL=index.b10d73a7.css.map */
