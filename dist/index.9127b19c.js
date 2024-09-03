@@ -704,6 +704,19 @@ customDifficulty.addEventListener("click", function() {
         if (numberOfTiles <= 100 && 70 < numberOfTiles) createMemoryTile.classList.add("memory-block", "memory-block-height--3", `memory-block--${i}`);
     }
 }
+/* debounce function to delay the next button press */ function debounce(func, timeout = 300) {
+    let timer;
+    return (...args)=>{
+        clearTimeout(timer);
+        timer = setTimeout(()=>{
+            func.apply(this, args);
+        }, timeout);
+    };
+}
+function saveInput() {
+    console.log("Saving data");
+}
+const processChange = debounce(()=>saveInput());
 /* loop that creates memory tiles based on the selected amount by the player */ function createMemoryTilesSelector() {
     for(let i = 1; i <= numberOfTiles; ++i)memoryTiles[i] = document.querySelector(`.memory-block--${i}`);
 }
@@ -713,9 +726,6 @@ customDifficulty.addEventListener("click", function() {
 /* press the start button to start the game*/ startGame.addEventListener("click", function(number) {
     startGameSequence();
 });
-/* start the game by pressing the spacebar*/ document.body.onkeyup = function(e) {
-    if (e.keyCode == 32 && gameAreaActive === true) startGameSequence();
-};
 function startGameSequence() {
     if (playerTurn === false && computerTurn === true) {
         /* generate a random rumber which will be used to select a random memory tile*/ const generatedNumber = Math.floor(Math.random() * numberOfTiles) + 1;
@@ -845,7 +855,7 @@ function ShowHideHighScoreModal() {
     generatedNumbersSequence = [];
     playerNumbersSequence = [];
     highScoreMessage.innerHTML = "";
-    messageBox.innerHTML = "Press start or spacebar to begin the game";
+    messageBox.innerHTML = "Press start to begin the game";
     gameAreaActive = false;
     toGameArea();
 });

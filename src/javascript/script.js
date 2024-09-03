@@ -207,6 +207,21 @@ function createMemoryTilesHtml() {
     }
   }
 }
+/* debounce function to delay the next button press */
+
+function debounce(func, timeout = 300) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, timeout);
+  };
+}
+function saveInput() {
+  console.log("Saving data");
+}
+const processChange = debounce(() => saveInput());
 
 /* loop that creates memory tiles based on the selected amount by the player */
 function createMemoryTilesSelector() {
@@ -224,13 +239,6 @@ function toggleMemoryTile(t) {
 startGame.addEventListener("click", function (number) {
   startGameSequence();
 });
-
-/* start the game by pressing the spacebar*/
-document.body.onkeyup = function (e) {
-  if (e.keyCode == 32 && gameAreaActive === true) {
-    startGameSequence();
-  }
-};
 
 function startGameSequence() {
   if (playerTurn === false && computerTurn === true) {
@@ -501,7 +509,7 @@ quitBtn.addEventListener("click", function () {
   playerNumbersSequence = [];
 
   highScoreMessage.innerHTML = "";
-  messageBox.innerHTML = "Press start or spacebar to begin the game";
+  messageBox.innerHTML = "Press start to begin the game";
 
   gameAreaActive = false;
 
