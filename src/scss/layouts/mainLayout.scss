@@ -405,8 +405,12 @@ $corner-margins: 5rem;
     rgba(28, 115, 195, 1) 0%,
     rgba(165, 216, 255, 1) 100%
   );
-  width: 100vw;
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
 }
 
 /* 5. styling difficulty select menu */

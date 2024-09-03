@@ -278,8 +278,9 @@ button {
 
 .background {
   background: linear-gradient(125deg, #1c73c3 0%, #a5d8ff 100%);
-  width: 100vw;
-  height: 100vh;
+  position: fixed;
+  inset: 0;
+  overflow: auto;
 }
 
 .difficulty-buttons {
